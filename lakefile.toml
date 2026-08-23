@@ -1,0 +1,13 @@
+name = "batteries-recycling"
+defaultTargets = ["MonadSatisfying", "RBTree"]
+
+[[lean_lib]]
+name = "MonadSatisfying"
+
+[[lean_lib]]
+name = "RBTree"
+
+[[require]]
+name = "batteries"
+git = "https://github.com/leanprover-community/batteries"
+rev = "main"
