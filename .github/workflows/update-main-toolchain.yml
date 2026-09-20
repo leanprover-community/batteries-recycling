@@ -40,7 +40,7 @@ jobs:
             exit 0
           fi
 
-          echo "$REQUESTED_TOOLCHAIN" > lean-toolchain
+          echo "requested_toolchain=$REQUESTED_TOOLCHAIN" >> "$GITHUB_OUTPUT"
           echo "toolchain_rev=${REQUESTED_TOOLCHAIN#leanprover/lean4:}" >> "$GITHUB_OUTPUT"
           echo "updated=true" >> "$GITHUB_OUTPUT"
 
