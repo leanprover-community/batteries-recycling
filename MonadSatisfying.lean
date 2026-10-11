@@ -1,7 +1,7 @@
 module
 
-public import Batteries.Recycling.MonadSatisfying.Array
-public import Batteries.Recycling.MonadSatisfying.Basic
-public import Batteries.Recycling.MonadSatisfying.Lean
-public import Batteries.Recycling.MonadSatisfying.List
-public import Batteries.Recycling.MonadSatisfying.Vector
+public import MonadSatisfying.Array
+public import MonadSatisfying.Basic
+public import MonadSatisfying.List
+public import MonadSatisfying.Vector
+public meta import MonadSatisfying.Lean
