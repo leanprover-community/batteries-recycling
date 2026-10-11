@@ -5,9 +5,10 @@ Authors: Mario Carneiro
 -/
 module
 
-public import Batteries.Recycling.RBTree.WF
+public import RBTree.Basic
+import RBTree.WF
 
-@[expose] public section
+public section
 
 /-!
 # RBNode depth bounds
