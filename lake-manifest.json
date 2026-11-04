@@ -5,7 +5,7 @@
    "type": "git",
    "subDir": null,
    "scope": "",
-   "rev": "05e379fac493fc84cc55487b9b58451aaa4eccd3",
+   "rev": "303e0dc8190c0232a430e80e097d80197a2ec1e5",
    "name": "batteries",
    "manifestFile": "lake-manifest.json",
    "inputRev": "cell-network",
