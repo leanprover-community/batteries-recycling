@@ -1,5 +1,8 @@
 name = "batteries-recycling"
-defaultTargets = ["MonadSatisfying", "RBTree"]
+defaultTargets = ["HashMap", "MonadSatisfying", "RBTree"]
+
+[[lean_lib]]
+name = "HashMap"
 
 [[lean_lib]]
 name = "MonadSatisfying"
