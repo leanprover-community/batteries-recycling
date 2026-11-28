@@ -7,6 +7,7 @@ They will be moved to a separate repository once a suitable deprecation period h
 
 ## Libraries
 
+- [`HashMap`](HashMap/README.md): `Batteries.HashMap`, the deprecated wrapper around `Std.HashMap`.
 - [`MonadSatisfying`](MonadSatisfying/README.md): the `SatisfiesM` predicate and `MonadSatisfying`
   class for Hoare-style reasoning about monadic programs.
 - [`RBTree`](RBTree/README.md): red-black trees, with `RBSet` and `RBMap`.
